@@ -43,6 +43,11 @@ My Pi uses the Raspian distro. So get that installed and then run:
 
 So that we can get retrocade starting on bootup, we need to enable auto-login:
 
+### dgen preference file
+	
+	mkdir .dgen
+	cp retrocade/dgenrc .dgen/
+
 ### Autologin
 
 	sudo nano /etc/inittab
