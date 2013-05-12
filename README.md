@@ -10,6 +10,7 @@ My Pi uses the Raspian distro. So get that installed and then run:
 
 	sudo aptitude update
 	sudo aptitude upgrade
+	sudo aptitude install git
 
 ### dgen
 
@@ -33,6 +34,7 @@ My Pi uses the Raspian distro. So get that installed and then run:
 
 	sudo aptitude install python-virtualenv
 	sudo aptitude install python-dev
+	git clone git://github.com/davidwinter/retrocade.git
 	cd retrocade
 	virtualenv env
 	env/bin/pip intall urwid
