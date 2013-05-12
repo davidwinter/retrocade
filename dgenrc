@@ -1,0 +1,21 @@
+key_pad1_right = right
+key_pad1_left = left
+key_pad1_up = up
+key_pad1_down = down
+key_pad1_a = lctrl
+key_pad1_b = lalt
+key_pad1_c = space
+key_pad1_start = 1
+
+key_pad2_right = g
+key_pad2_left = d
+key_pad2_up = r
+key_pad2_down = f
+key_pad2_a = a
+key_pad2_b = s
+key_pad2_c = q
+key_pad2_start = 2
+
+key_quit = ctrl-2
+key_slot_1 = p
+key_slot_2 = l
