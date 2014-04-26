@@ -29,12 +29,10 @@ class ArcadeView:
 /_/|_/___/ /_/ /_/|_|\____/\___/_/ |_/____/___/  
                                                  '''), urwid.Divider()]
 		for g in self.games:
-			button = urwid.Button(g)
-			urwid.connect_signal(button, 'click', self.chosen, g)
+			button = urwid.Button(g, self.chosen, g)
 			buttons.append(button)
 
-		quit = urwid.Button(u'Exit')
-		urwid.connect_signal(quit, 'click', self.quit, 'exit')
+		quit = urwid.Button(u'Exit', self.quit, 'exit')
 		buttons.append(urwid.Divider())
 		buttons.append(quit)
 		listbox = urwid.ListBox(urwid.SimpleFocusListWalker(buttons))
